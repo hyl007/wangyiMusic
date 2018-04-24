@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/songPlay.css">
+</head>
+<body>
+
+<div class="page" id="songPlay">
+    <audio src="#"></audio>
+    <div class="disc-container">
+        <img class="pointer" src="img/needle-play.png" alt="">
+        <div class="disc">
+            <div class="icon-wrapper">
+                <svg class="icon icon-play">
+                    <use xlink:href="#icon-bofang"></use>
+                </svg>
+                <svg class="icon icon-pause">
+                    <use xlink:href="#icon-pause"></use>
+                </svg>
+            </div>
+            <img class="ring" src="img/disc-play.png" alt="">
+            <img class="light" src="img/disc-light-play.png" alt="">
+            <img class="cover" alt="">
+        </div>
+    </div>
+    <div class="song-description">
+        <h1></h1>
+        <div class="lyric">
+            <div class="lines">
+
+            </div>
+        </div>
+    </div>
+    <div class="links">
+        <a href="#">打开</a>
+        <a class="main" href="#">下载</a>
+    </div>
+</div>
+<script src="//at.alicdn.com/t/font_638590_5cvtxua8i11qbyb9.js"></script>
+<script src="js/vendor/jquery/jquery-3.3.1.js"></script>
+<script src="js/vendor/leanCloud/av-min.js"></script>
+<!--***************-->
+<script src="js/indexJS/init-av.js"></script>
+<script src="js/indexJS/event-hub.js"></script>
+<script src="js/songplayJS/songPlay.js"></script>
+</body>
+</html>
