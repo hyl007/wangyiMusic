@@ -76,7 +76,7 @@
             let linesHeight = $(this.el).find('.lyric>.lines')[0].getBoundingClientRect().top
             let height = pHeight - linesHeight
             $(this.el).find('.lyric>.lines').css({
-                transform: `translateY(${- (height - 25)}px)`
+                transform: `translateY(${- ((height/9.8) - 10)}rem)`
             })
             $(p).addClass('active').siblings('.active').removeClass('active')
         }
