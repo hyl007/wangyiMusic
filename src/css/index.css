@@ -97,7 +97,7 @@ body{font:14px/1.5 Helvetica,sans-serif;background: white;}
 .page1 .songs p{
     overflow: hidden;
     line-height: 18px;
-    height: 5vh;
+    height: 5.1vh;
     padding: 0 2vw;
     display: -webkit-box;
     -webkit-line-clamp: 2;
