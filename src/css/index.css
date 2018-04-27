@@ -84,7 +84,7 @@ body{font:14px/1.5 Helvetica,sans-serif;background: white;}
 }
 .page1 .songs li{
     width: 32.8%;
-    margin: 6px 0;
+    margin: 5px 0;
 }
 .page1 .songs{
     display: flex;
@@ -97,7 +97,7 @@ body{font:14px/1.5 Helvetica,sans-serif;background: white;}
 .page1 .songs p{
     overflow: hidden;
     line-height: 18px;
-    height: 5.2vh;
+    height: 5.3vh;
     padding: 0 2vw;
     display: -webkit-box;
     -webkit-line-clamp: 2;
